@@ -69,7 +69,7 @@ DFBASE = pd.read_excel(
     engine='openpyxl',
     sheet_name='Base',
     skiprows=7,
-    usecols='C:AP',
+    usecols='C:BZ',
     nrows=7000,
 )
 
